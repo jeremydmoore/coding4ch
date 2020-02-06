@@ -98,13 +98,15 @@ Give an example
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Still to add
+
+From the template: Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
 * **Jeremy Moore** - *Initial work*
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+From the template: See also the list of [contributors (link not yet active)](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
