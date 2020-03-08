@@ -91,16 +91,12 @@ Install the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windo
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
-
-![Run Windows PowerShell as Administrator](https://github.com/jeremydmoore/coding4ch/blob/master/docs/images/win10_powershell_run_as_administrator.png)
-
-
-![Copy and paste code from coding4ch README.md to Powershell Window](https://github.com/jeremydmoore/coding4ch/blob/master/docs/images/win10_activate_windows_subsystem_linux.png)
+| <img height=30% width=30% src="https://github.com/jeremydmoore/coding4ch/blob/master/docs/images/win10_powershell_run_as_administrator.png" /> | <img height=60% width=60% src="https://github.com/jeremydmoore/coding4ch/blob/master/docs/images/win10_activate_windows_subsystem_linux.png" /> | 
 
 Install [Ubuntu 18.04 LTS](https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab) from the Windows Store
 * May require free Microsoft account
 
-![Ubuntu 18.04 LTS on the Microsoft Store](https://github.com/jeremydmoore/coding4ch/blob/master/docs/images/win10_store_ubuntu_1804LTS_install.png)
+<img height=60% width=60% src="https://github.com/jeremydmoore/coding4ch/blob/master/docs/images/win10_store_ubuntu_1804LTS_install.png" />
 
 Install [GitHub Desktop](https://desktop.github.com)
 * Code repository management software for version control
