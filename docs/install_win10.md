@@ -24,7 +24,6 @@ These setup instructions were written on a computer running Windows 10 Education
 ### Install [Visual Studio Code](https://code.visualstudio.com/)
 * Text editor
 * [Privacy information](https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting)
-* [Setup VS Code](https://code.visualstudio.com/remote-tutorials/wsl/getting-started) for use with Windows Subsystem for Linux
 1. [Install Visual Studio Code Remote - WSL extension](https://code.visualstudio.com/remote-tutorials/wsl/getting-started)
 
 
