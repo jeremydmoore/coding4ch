@@ -8,17 +8,15 @@ A step by step series of examples to install the requisite programs to setup a d
 These setup instructions were written on a computer running Windows 10 Education, version 1909, OS build 18363.657 (info will be updated to current computer status once prerequisite and install are completed).
 
 ### Installation Steps:
-1. Install Git
 1. Install [GitHub Desktop](https://github.com/jeremydmoore/coding4ch/blob/master/docs/install_win10.md#install-github-desktop)
 1. Install Visual Studio Code
+1. Install Git
 1. Enable Windows Subsystem for Linux (WSL)
 1. Install Ubuntu 18.04 LTS
 1. Install Python and pip
 1. Setup Visual Studio Code to use WSL's Python
 1. Install Pipenv
 1. Install development environment using PipFile from this GitHub repository
-
-### Install [Git] for Windows(https://git-scm.com/)
 
 
 ### Install [GitHub Desktop](https://desktop.github.com)
@@ -31,7 +29,10 @@ These setup instructions were written on a computer running Windows 10 Education
 1. [Install Visual Studio Code Remote - WSL extension](https://code.visualstudio.com/remote-tutorials/wsl/getting-started)
 
 
-### Enable [Windows Substem for Linux (WSL)](https://code.visualstudio.com/remote-tutorials/wsl/enable-wsl)
+### Install [Git] for Windows(https://git-scm.com/)
+
+
+### Enable [Windows Subsystem for Linux (WSL)](https://code.visualstudio.com/remote-tutorials/wsl/enable-wsl)
 
 
 ### Install [Ubuntu 18.04 LTS](https://code.visualstudio.com/remote-tutorials/wsl/install-linux)
