@@ -20,6 +20,16 @@ A step by step series of examples to install the requisite programs to setup a d
 1. a commercial program included as part of macOS, but not installed by default
 1. an open source program
 
+Steps:
+1. Install XCode
+1. Install XCode Command-Line Tools
+1. Install GitHub Desktop
+1. Install Visual Studio Code
+1. Install Homebrew
+1. Install Python
+1. Update PIP and install Pipenv
+
+
 Install [XCode](https://developer.apple.com/xcode/) from Apple's App Store
 *Required to install to gain access to command-line programs on macOS
 
@@ -76,6 +86,14 @@ These setup instructions were written on a computer running Windows 10 Education
 A step by step series of examples to install the requisite programs to setup a development environment to run the code in this repository. All of the software to-be-installed below is either:
 1. a commercial program included as part of Windows 10, but not installed by default
 1. an open source program
+
+Steps:
+1. Install Windows Subsystem for Linux
+1. Install Ubuntu 18.04 LTS
+1. Install GitHub Desktop
+1. Install Visual Studio Code
+1. Install Python
+1. Update PIP and install Pipenv
 
 Install the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) by opening PowerShell as Administrator and running (and *restart your computer* when prompted):
 
