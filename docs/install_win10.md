@@ -30,6 +30,7 @@ These setup instructions were written on a computer running Windows 10 Education
 
 
 ### Install [Git] for Windows(https://git-scm.com/)
+1. Set Visual Studio Code as the Editor during installation
 
 
 ### Enable [Windows Subsystem for Linux (WSL)](https://code.visualstudio.com/remote-tutorials/wsl/enable-wsl)
