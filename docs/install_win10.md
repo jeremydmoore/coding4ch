@@ -66,11 +66,16 @@ $ python3 --version
 ```
 6. [Setup VS Code to use WSL's Python](https://code.visualstudio.com/remote-tutorials/wsl/run-in-wsl)
 7. [Install VS Code's Python Extension](https://code.visualstudio.com/remote-tutorials/wsl/edit-and-debug)
+8. Upgrade pip and setuptools
+```
+$ python3 -m pip install --user --upgrade setuptools pip
+```
 
 ### Install [Pipenv](https://pipenv.kennethreitz.org/en/latest/)
 * [Real Python article](https://realpython.com/pipenv-guide/) about Pipenv
 * Pipenv is Python's [recommended dependancy manager](https://packaging.python.org/tutorials/managing-dependencies/#managing-dependencies)
-
+* [About Virtual Environments, Jupyter Notebooks, and Pipenv](https://towardsdatascience.com/virtual-environments-for-data-science-running-python-and-jupyter-with-pipenv-c6cb6c44a405#f91f-d040f09f69cf)
+* [Common Pipenv errors](https://towardsdatascience.com/common-pipenv-errors-3a6f8ce81562)
 ```
-pip3 install pipenv
+$ python3 -m pip install --user pipenv
 ```
