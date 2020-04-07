@@ -37,22 +37,27 @@ These setup instructions were written on a computer running Windows 10 Education
 ### Install [Python 3 and pip](https://code.visualstudio.com/remote-tutorials/wsl/install-python)
 * Python 3
 * Installed into WSL
-1. Upgrade WSL package manager
-'''
-$ sudo apt upgrade
-'''
-2. Verify everything is up to date
-'''
+* NOTE: Step 2 below is an additional step not in the directions linked above
+1. Verify everything is up to date
+```
 $ apt update
-'''
-3. Install Python 3 and pip
-'''
+```
+2. Upgrade WSL package manager <-- THIS STEP NOT in LINK ABOVE!
+```
+$ sudo apt upgrade
+```
+3. Verify everything is up to date
+```
+$ apt update
+```
+4. Install Python 3 and pip
+```
 $ sudo apt install python3 python3-pip
-'''
-4. Verify Python 3
-'''
+```
+5. Verify Python 3
+```
 $ python3 --version
-'''
+```
 
 
 ### Install [Pipenv](https://pipenv.kennethreitz.org/en/latest/)
