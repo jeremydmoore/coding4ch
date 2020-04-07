@@ -1,6 +1,8 @@
 # coding4ch: Coding for Cultural Heritage
 
-This repository serves as the code-base for a presentation at the [2020 DT West Coast Round Table](https://dtculturalheritage.com/events/dt-west-coast-round-table-pepperdine/) at Pepperdine University in Malibu, CA on March 12, 2020.
+This repository serves as the code-base for utilities useful in cultural heritage imaging and mass digitization projects. It is **VERY** much a work in progress . . . 
+
+This repository was announced and releassed at the [2020 DT West Coast Round Table](https://dtculturalheritage.com/events/dt-west-coast-round-table-pepperdine/) at Pepperdine University in Malibu, CA on March 12, 2020.
 
 ## Getting Started
 
@@ -101,29 +103,10 @@ Install [Ubuntu 18.04 LTS](https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9
 Install [GitHub Desktop](https://desktop.github.com)
 * Code repository management software for version control
 
-```
-code example
-```
 
-Install [Atom](https://atom.io)
+Install [Visual Studio Code](https://code.visualstudio.com/)
 * Text editor
 
-```
-code example
-```
-
-Install [Homebrew](https://brew.sh)
-* Package manager for macOS
-* Turn off analytics if preferred
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-Use Homebrew to install Tesseract and Pipenv
-
-```
-code example
-```
 
 Update Pip and install [Pipenv](https://pipenv.kennethreitz.org/en/latest/)
 * [Real Python article](https://realpython.com/pipenv-guide/) about Pipenv
