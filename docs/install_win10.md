@@ -12,7 +12,7 @@ These setup instructions were written on a computer running Windows 10 Education
 1. Install Visual Studio Code
 1. Enable Windows Subsystem for Linux (WSL)
 1. Install Ubuntu 18.04 LTS
-1. Install Python
+1. Install Python and pip
 1. Install Pipenv
 1. Install development environment using PipFile from this GitHub repository
 
@@ -32,16 +32,34 @@ These setup instructions were written on a computer running Windows 10 Education
 
 
 ### Install [Ubuntu 18.04 LTS](https://code.visualstudio.com/remote-tutorials/wsl/install-linux)
-* Select Ubuntu 18.04 LTS to install
+1. Search for/Select Ubuntu 18.04 LTS to install following the instructions at the link above
 
 
-### Install [Python](https://code.visualstudio.com/remote-tutorials/wsl/install-python)
-* Installing Python 3 into WSL
+### Install [Python 3 and pip](https://code.visualstudio.com/remote-tutorials/wsl/install-python)
+* Python 3
+* Installed into WSL
+1. Upgrade WSL package manager
+'''
+$ sudo apt upgrade
+'''
+2. Verify everything is up to date
+'''
+$ apt update
+'''
+3. Install Python 3 and pip
+'''
+$ sudo apt install python3 python3-pip
+'''
+4. Verify Python 3
+'''
+$ python3 --version
+'''
 
 
 ### Install [Pipenv](https://pipenv.kennethreitz.org/en/latest/)
 * [Real Python article](https://realpython.com/pipenv-guide/) about Pipenv
+* Pipenv is Python's [recommended dependancy manager](https://packaging.python.org/tutorials/managing-dependencies/#managing-dependencies)
 
 ```
-code example
+pip3 install pipenv
 ```
