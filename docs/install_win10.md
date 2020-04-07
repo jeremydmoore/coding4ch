@@ -8,7 +8,7 @@ A step by step series of examples to install the requisite programs to setup a d
 These setup instructions were written on a computer running Windows 10 Education, version 1909, OS build 18363.657 (info will be updated to current computer status once prerequisite and install are completed).
 
 ### Installation Steps:
-1. Install GitHub Desktop
+1. Install [GitHub Desktop](https://github.com/jeremydmoore/coding4ch/blob/master/docs/install_win10.md#install-github-desktop)
 1. Install Visual Studio Code
 1. Enable Windows Subsystem for Linux (WSL)
 1. Install Ubuntu 18.04 LTS
