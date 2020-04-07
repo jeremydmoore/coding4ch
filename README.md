@@ -39,16 +39,11 @@ code example
 Install [GitHub Desktop](https://desktop.github.com)
 * Code repository management software for version control
 
-```
-code example
-```
 
-Install [Atom](https://atom.io)
+Install [Visual Studio Code](https://code.visualstudio.com/)
 * Text editor
+* [Privacy information](https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting)
 
-```
-code example
-```
 
 Install [Homebrew](https://brew.sh)
 * Package manager for macOS
@@ -57,7 +52,7 @@ Install [Homebrew](https://brew.sh)
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Use Homebrew to install Tesseract and Pipenv
+Use Homebrew to install Python
 
 ```
 code example
@@ -65,18 +60,12 @@ code example
 
 Update Pip and install [Pipenv](https://pipenv.kennethreitz.org/en/latest/)
 * [Real Python article](https://realpython.com/pipenv-guide/) about Pipenv
+* Pipenv is Python's [recommended dependancy manager](https://packaging.python.org/tutorials/managing-dependencies/#managing-dependencies)
 
 ```
 code example
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 
 ### Prerequisites for Windows 10 version 1909
@@ -106,7 +95,14 @@ Install [GitHub Desktop](https://desktop.github.com)
 
 Install [Visual Studio Code](https://code.visualstudio.com/)
 * Text editor
+* [Privacy information](https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting)
+1. [Setup VS Code](https://code.visualstudio.com/remote-tutorials/wsl/getting-started) for use with Windows Subsystem for Linux
 
+Use  to install Python
+
+```
+code example
+```
 
 Update Pip and install [Pipenv](https://pipenv.kennethreitz.org/en/latest/)
 * [Real Python article](https://realpython.com/pipenv-guide/) about Pipenv
