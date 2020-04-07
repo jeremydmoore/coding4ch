@@ -27,7 +27,8 @@ Steps:
 1. Install Visual Studio Code
 1. Install Homebrew
 1. Install Python
-1. Update PIP and install Pipenv
+1. Install Pipenv
+1. Install development environment using PipFile from this GitHub repository
 
 
 Install [XCode](https://developer.apple.com/xcode/) from Apple's App Store
@@ -93,7 +94,8 @@ Steps:
 1. Install GitHub Desktop
 1. Install Visual Studio Code
 1. Install Python
-1. Update PIP and install Pipenv
+1. Install Pipenv
+1. Install development environment using PipFile from this GitHub repository
 
 Install the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) by opening PowerShell as Administrator and running (and *restart your computer* when prompted):
 
