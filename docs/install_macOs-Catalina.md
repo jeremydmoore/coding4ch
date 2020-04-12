@@ -4,7 +4,7 @@ A step by step series of examples to install the requisite programs to setup a d
 1. a commercial program included as part of macOS, but not installed by default
 1. an open source program
 
-### Prerequisites for macOS 10.14.6 Mojave (untested on macOS Catalalina 10.15)
+### Prerequisites
 
 1. You have administrative access to your system
 1. You know how to operate the command line
