@@ -1,12 +1,16 @@
 # coding4ch: Coding for Cultural Heritage
 
-This repository serves as the code-base for utilities useful in cultural heritage imaging and mass digitization projects. It is **VERY** much a work in progress . . . 
+This repository serves as the code-base for utilities useful in cultural heritage imaging and mass digitization projects. It is **VERY** much a work in progress . . .
 
 This repository was announced and releassed at the [2020 DT West Coast Round Table](https://dtculturalheritage.com/events/dt-west-coast-round-table-pepperdine/) at Pepperdine University in Malibu, CA on March 12, 2020.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. We plan to have instructions for both macOS and Windows 10, but these will be tested on a limited number of computers. Please reach out and ask for assistance or help if you're having trouble with any of these steps.
+**Work in progress**
+
+The following steps are necessary to install a development copy of this repository on your computer. This will allow you to assist in the development of this software.
+
+We plan to have instructions for macOS and are considering installation instructions, but these will be tested on a limited number of computers. Please reach out and ask for assistance or help if you're having trouble with any of these steps.
 
 ### [Installing on macOS 10.14.6 Mojave](docs/install_macOs-Mojave.md) (untested on macOS Catalalina 10.15)
 
@@ -15,6 +19,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 ## Running the tests
+
+**Still to add . . .**
 
 Explain how to run the automated tests for this system
 
@@ -36,7 +42,7 @@ Give an example
 
 ## Contributing
 
-Still to add
+**Still to add . . .**
 
 From the template: Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
