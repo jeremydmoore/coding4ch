@@ -133,7 +133,7 @@ $ mkvirtualenv coding4ch -p python3
    - Your terminal should change to reflect the this new environment by showing `(coding4ch)` before your `$` prompt
 2. Install OpenCV
 ```
-$ pip install opencv-contrib-python scikit-image pillow imutils
+$ pip install opencv-contrib-python
 ```
 3. Install image processing libraries
 ```
@@ -143,7 +143,7 @@ $ pip install scikit-image pillow
 ```
 $ pip install scikit-learn jupyter matplotlib numpy pandas
 ```
-5. Verify installation
+5. TODO: Verify installation instructions 
 
 ## Suggested Installations:
 
