@@ -15,25 +15,39 @@ This code is written for installation on macOS and has been tested on macOS 10.1
 
 ## Install Steps
 
+0. Update SHELL to use zsh
 1. Install XCode
-1. Install XCode Select
-1. Install Homebrew
-1. Install Python
-1. Install pip and virtual environments
-1. Install Python packages
+2. Install XCode Select
+3. Install Homebrew
+4. Install Python
+5. Install pip and virtual environments
+6. Install Python packages
 
 Suggested steps:
 1. Install GitHub Desktop
-1. Install Atom
+2. Install Atom
 
-
-### 1. Install [XCode](https://developer.apple.com/xcode/) from Apple's App Store
+### 0. [Update SHELL to use zsh](https://support.apple.com/kb/HT208050)
+- If you UPGRADED from an earlier version of macOS to to macOS Catalina, then your default Terminal SHELL is BASH
+1. Open Terminal, and if you upgraded you should see the following message
+```
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+```
+2. Enter the command given to update to zsh
+```
+$ chsh -s /bin/zsh
+```
+3. It will state `Changing shell for <username>.` and ask for your password, type it in, then press `return`
+4. Quit Terminal, then open it again and your prompt should have changed from `$` to `%`
+5. Quit Terminal
+### 1. Install [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) from Apple's App Store
 1. Once you have installed XCode, open Terminal and accept the licenses
-
 ```
 % sudo xcodebuild -license
 ```
-Press the `space` key as you read through the agreement, then type `agree` at the prompt.
+Press the `space` key as you read through the agreement, then type `agree` at the prompt, and press `return`
 
 ### 2. Install XCode Select
 * May require free Apple developer account
