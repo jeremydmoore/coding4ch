@@ -130,7 +130,7 @@ pip3 install virtualenv virtualenvwrapper
 ```
 $ mkvirtualenv coding4ch -p python3
 ```
-   - Your terminal should change to reflect the this new environment by showing `(coding4ch)` before your `$` prompt</br></br>
+   - Your terminal should change to reflect the this new environment by showing `(coding4ch)` before your `$` prompt
 2. Install OpenCV
 ```
 $ pip install opencv-contrib-python scikit-image pillow imutils
