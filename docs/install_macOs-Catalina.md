@@ -42,6 +42,7 @@ $ chsh -s /bin/zsh
 3. It will state `Changing shell for <username>.` and ask for your password, type it in, then press `return`
 4. Quit Terminal, then open it again and your prompt should have changed from `$` to `%`
 5. Quit Terminal
+
 ### 1. Install [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) from Apple's App Store
 1. Once you have installed XCode, open Terminal and accept the licenses
 ```
@@ -50,8 +51,123 @@ $ chsh -s /bin/zsh
 Press the `space` key as you read through the agreement, then type `agree` at the prompt, and press `return`
 
 ### 2. Install XCode Select
-* May require free Apple developer account
-
+1. Still in Terminal, enter the following command
 ```
 % sudo xcode-select --install
 ```
+2. A pop-up should appear asking you to click `Install` to install the command-line tools
+3. When the software is installed you will receive a new pop-up that says so
+4. Quit Terminal
+
+### 3. Install [Homebrew](https://brew.sh)
+* Package manager for macOS
+1. Open Terminal
+2. Download and install Homebrew
+```
+% /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+3. Decide if you want to turn [analytics](https://docs.brew.sh/Analytics) off
+4. Update Homebrew
+```
+% brew update
+```
+5. Make sure Homebrew's path is at the beginning of your computer's PATH
+
+   1. Open your BASH profile in nano
+   ```
+   % nano ~/.zshrc
+   ```
+   2. Add the 2 lines below to the end of your profile
+   ```
+   # Homebrew
+   export PATH=/usr/local/bin:$PATH
+   ```
+   3. Save the file with `ctrl + x`, `y`, `enter`
+
+   4. Source the file (i.e. reload it)
+   ```
+   % source ~/.zshrc
+   ```
+
+### 4. Install [Python](https://python.org) plus a few extra things
+1. Install Python
+```
+% brew install python3
+```
+2. Test that Python 3 was correctly linked
+```
+% which python3
+```
+   - Result should be `/usr/local/bin/python3`
+3. Install compiler and image I/O libraries
+```
+% brew install cmake pkg-config wget
+% brew install jpeg libpng libtiff openexr
+```
+4. Optional: Install ImageMagick
+```
+% brew install imagemagick
+```
+
+### 5. Install pip and virtual environments
+1. Download the pip install script with wget
+```
+% wget https://bootstrap.pypa.io/get-pip.py
+```
+2. Run the script with Python
+```
+% sudo python3 get-pip.py
+```
+3. Install Python packages to use virtual environments
+```
+% pip3 install virtualenv virtualenvwrapper
+```
+  - NOTE: my system did not require me to run this with `sudo`, but some of the install instructions I was looking at did say it may be necessary
+4. Add virtual environments to your BASH profile
+
+   1. Open your BASH profile in nano
+   ```
+   % nano ~/.zshrc
+   ```
+   2. Add the 2 lines below to the end of your profile
+   ```
+   # Homebrew
+   export PATH=/usr/local/bin:$PATH
+   ```
+   3. Save the file with `ctrl + x`, `y`, `enter`
+
+   4. Source the file (i.e. reload it)
+   ```
+   % source ~/.zshrc
+   ```
+
+### 6. Create virtual environment and install Python packages
+1. Create a virtual environment named `coding4ch`
+```
+% mkvirtualenv coding4ch -p python3
+```
+   - Your terminal should change to reflect the this new environment by showing `(coding4ch)` before your `$` prompt
+2. Install OpenCV
+```
+% pip install opencv-contrib-python
+```
+3. Install image processing libraries
+```
+% pip install scikit-image pillow
+```
+4. Install support libraries
+```
+% pip install scikit-learn jupyter matplotlib numpy pandas
+```
+5. TODO: Verify installation instructions 
+
+## Suggested Installations:
+
+### 1. Install [GitHub Desktop](https://desktop.github.com)
+* Code repository management software for version control
+
+### 2. Install [Atom](https://atom.io)
+* Text editor
+
+### 3. Install Jhove
+### 4. Install Exiftool
