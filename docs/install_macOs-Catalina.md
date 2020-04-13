@@ -157,9 +157,9 @@ Press the `space` key as you read through the agreement, then type `agree` at th
 ```
 4. Install support libraries
 ```
-% pip install scikit-learn jupyter matplotlib numpy pandas
+% pip install scikit-learn jupyter matplotlib numpy pandas pytest
 ```
-5. TODO: Verify installation instructions 
+5. TODO: Verify installation instructions
 
 ## Suggested Installations:
 

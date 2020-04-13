@@ -141,9 +141,9 @@ $ pip install scikit-image pillow
 ```
 4. Install support libraries
 ```
-$ pip install scikit-learn jupyter matplotlib numpy pandas
+$ pip install scikit-learn jupyter matplotlib numpy pandas pytest
 ```
-5. TODO: Verify installation instructions 
+5. TODO: Verify installation instructions
 
 ## Suggested Installations:
 
