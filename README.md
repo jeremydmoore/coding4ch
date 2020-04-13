@@ -12,34 +12,11 @@ The following steps are necessary to install a development copy of this reposito
 
 Once the development environments have been decided, more easily distributable installation packages could be created for those interested in simply using the software. **If you want installable programs contact us at email coding4ch@gmail.com and let us know!**
 
-We are actively working on instructions for macOS Catalina and Ubuntu 18.04LTS. All instructions will tested be on a very limited number of computers. *Please reach out and ask for assistance or help if you're having trouble with any of these steps.*
+We are actively working on instructions for macOS versions 10.14 Mojave and 10.15 Catalina and Ubuntu 18.04LTS. All instructions will tested be on a very limited number of computers. *Please reach out and ask for assistance or help if you're having trouble with any of these steps.*
 
 If there is interest, a Virtual Machine could be created for use on Windows 10 and for those on any operating system who just want to start working with the code **If you want a pre-loaded virtual machine contact us at email coding4ch@gmail.com and let us know!**
 
-### [Installing on macOS 10.15.4 Catalina](docs/install_macOs-Catalina.md)
-
-
-## Running the tests
-
-**Still to add . . .**
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+### [Installing on macOS 10.14.6 Mojave](docs/install_macOs-Mojave.md)
 
 ## Contributing
 
