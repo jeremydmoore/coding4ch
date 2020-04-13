@@ -1,9 +1,18 @@
+import platform
 from pathlib import Path
 
 import pytest
 
-# assume Jhove is installed in default location
-jhove_path = Path('/Users/dlisla/jhove/jhove')
+# get OS -- currently only working with macOS
+operating_platform = platform.platform()
+
+if operating_platform.lower().startswith('darwin'):
+    # it's macOS and we'll assume Jhove is installed in default location
+    jhove_path = Path.home().joinpath('jhove/jhove')
+else:
+    # if it's not macOS, but I don't know where to look for jhove yet
+    pass
+
 image_path = Path.cwd()
 
 def does_jhove_exist(jhove_path=jhove_path):
@@ -11,6 +20,7 @@ def does_jhove_exist(jhove_path=jhove_path):
 
 def test_does_jhove_exist():
     assert does_jhove_exist() == True
+    print(jhove_path)
 
 jhove_module_list = ['tif', 'tiff', 'jpeg2000']
 def jhove(image_path, jhove_module):
@@ -23,4 +33,3 @@ def jhove(image_path, jhove_module):
 def test_jhove():
     assert 'tiff' in jhove_module_list
     assert 'TIF' not in jhove_module_list
-    
