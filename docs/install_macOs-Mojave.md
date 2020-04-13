@@ -55,7 +55,7 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 ```
 $ brew update
 ```
-1. Make sure Homebrew's path is at the beginning of your computer's PATH
+4. Make sure Homebrew's path is at the beginning of your computer's PATH
 
    1. Open your BASH profile in nano
    ```
@@ -82,7 +82,7 @@ $ brew install python3
 ```
 $ which python3
 ```
-   - Result should be `/usr/local/bin/python3`</br></br>
+   - Result should be `/usr/local/bin/python3`
 3. Install compiler and image I/O libraries
 ```
 $ brew install cmake pkg-config wget
@@ -106,7 +106,7 @@ $ sudo python3 get-pip.py
 ```
 pip3 install virtualenv virtualenvwrapper
 ```
-  - NOTE: my system did not require me to run this with `sudo`, but some of the install instructions I was looking at did say it may be necessary</br></br>
+  - NOTE: my system did not require me to run this with `sudo`, but some of the install instructions I was looking at did say it may be necessary
 4. Add virtual environments to your BASH profile
 
    1. Open your BASH profile in nano
