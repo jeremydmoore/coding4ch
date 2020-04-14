@@ -11,7 +11,7 @@ if operating_platform.lower().startswith('darwin'):  # it's macOS
     jhove_path = Path.home().joinpath('jhove/jhove')
 else:
     # if it's not macOS, but I don't know where to look for jhove yet
-    pass
+    jhove_path = None  # should I just pass here?
 
 image_path = Path.cwd()
 
