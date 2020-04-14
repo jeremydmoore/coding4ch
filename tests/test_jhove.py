@@ -6,8 +6,8 @@ import pytest
 # get OS -- currently only working with macOS
 operating_platform = platform.platform()
 
-if operating_platform.lower().startswith('darwin'):
-    # it's macOS and we'll assume Jhove is installed in default location
+if operating_platform.lower().startswith('darwin'):  # it's macOS
+    # assume default install location
     jhove_path = Path.home().joinpath('jhove/jhove')
 else:
     # if it's not macOS, but I don't know where to look for jhove yet
