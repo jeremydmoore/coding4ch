@@ -12,7 +12,7 @@ if operating_platform.lower().startswith('darwin'): # it's macOS
     jhove_path = Path.home().joinpath('jhove/jhove')
 else:
     # if it's not macOS, but I don't know where to look for jhove yet
-    pass
+    jhove_path = None  # should I just pass here?
 
 def does_jhove_exist(jhove_path=jhove_path):
     return jhove_path.is_file()

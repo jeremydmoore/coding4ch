@@ -104,7 +104,8 @@ Press the `space` key as you read through the agreement, then type `agree` at th
 % brew install cmake pkg-config wget
 % brew install jpeg libpng libtiff openexr
 ```
-4. Optional: Install ImageMagick
+4. NOT RECOMMENDED Optional: Install ImageMagick
+- Installing ImageMagick on macOS Catalina 10.15.4 failed as of 2020-04-13
 ```
 % brew install imagemagick
 ```
@@ -123,16 +124,19 @@ Press the `space` key as you read through the agreement, then type `agree` at th
 % pip3 install virtualenv virtualenvwrapper
 ```
   - NOTE: my system did not require me to run this with `sudo`, but some of the install instructions I was looking at did say it may be necessary
-4. Add virtual environments to your BASH profile
+  - NOTE: I needed to force reinstall these via pip3 as I had a problem the first time. I did so with `% pip3 install --force-reinstall virtualenv virtualenvwrapper`
+4. Add virtual environments to your zsh profile
 
-   1. Open your BASH profile in nano
+   1. Open your zsh profile in nano
    ```
    % nano ~/.zshrc
    ```
    2. Add the 2 lines below to the end of your profile
    ```
-   # Homebrew
-   export PATH=/usr/local/bin:$PATH
+   # virtualenv and virtualenvwrapper
+   export WORKON_HOME=$HOME/.virtualenvs
+   export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+   source /usr/local/bin/virtualenvwrapper.sh
    ```
    3. Save the file with `ctrl + x`, `y`, `enter`
 

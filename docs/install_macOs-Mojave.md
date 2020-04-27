@@ -115,8 +115,10 @@ pip3 install virtualenv virtualenvwrapper
    ```
    2. Add the 2 lines below to the end of your profile
    ```
-   # Homebrew
-   export PATH=/usr/local/bin:$PATH
+   # virtualenv and virtualenvwrapper
+   export WORKON_HOME=$HOME/.virtualenvs
+   export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+   source /usr/local/bin/virtualenvwrapper.sh
    ```
    3. Save the file with `ctrl + x`, `y`, `enter`
 
