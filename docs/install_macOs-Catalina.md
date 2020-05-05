@@ -131,7 +131,7 @@ Press the `space` key as you read through the agreement, then type `agree` at th
    ```
    % nano ~/.zshrc
    ```
-   2. Add the 2 lines below to the end of your profile
+   2. Add the 4 lines below to the end of your profile
    ```
    # virtualenv and virtualenvwrapper
    export WORKON_HOME=$HOME/.virtualenvs
