@@ -31,14 +31,14 @@ Suggested steps:
 1. You will need to install XCode from the Apple's developer store as the version in the App Store no longer works on Mojave
    - **Latest Mojave version: 11.3.1**
 
-2. Once you have installed XCode, open Terminal and accept the licenses
+2. Once you have installed XCode, open Terminal and accept the licenses by entering, it will ask for your password
 ```
 $ sudo xcodebuild -license
 ```
 3. Press the `space` key as you read through the agreement, then type `agree` at the prompt.
 
 ### 2. Install XCode Select
-1. I installed the command line tools a different way, but apparently this is the quickest method
+1. Open Terminal and run the following, it will ask for your password
 ```
 $ sudo xcode-select --install
 ```
