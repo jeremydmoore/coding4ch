@@ -42,7 +42,9 @@ $ sudo xcodebuild -license
 ```
 $ sudo xcode-select --install
 ```
-
+2. A pop-up should appear asking you to click `Install` to install the command-line tools
+3. When the software is installed you will receive a new pop-up that says so
+4. Quit Terminal
 
 ### 3. Install [Homebrew](https://brew.sh)
 * Package manager for macOS
