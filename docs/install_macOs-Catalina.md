@@ -1,4 +1,4 @@
-# Installing on macOS 10.15.4
+# Installing on macOS 10.15.5
 
 A step by step series of examples to install the requisite programs to setup a development environment to run the code in this repository. All of the software to-be-installed below is either:
 1. a commercial program included as part of macOS, but not installed by default
