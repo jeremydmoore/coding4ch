@@ -16,8 +16,8 @@ We are actively working on instructions for macOS versions 10.14 Mojave and 10.1
 
 If there is interest, a Virtual Machine could be created for use on Windows 10 and for those on any operating system who just want to start working with the code **If you want a pre-loaded virtual machine contact us by email coding4ch@gmail.com and let us know!**
 
-### [Installing on macOS 10.14.6 Mojave](docs/install_macOs-Mojave.md)
-### [Installing on macOS 10.15.4 Catalina](docs/install_macOs-Catalina.md)
+### [Installing on macOS 10.14 Mojave](docs/install_macOs-Mojave.md)
+### [Installing on macOS 10.15 Catalina](docs/install_macOs-Catalina.md)
 
 ## Contributing
 
