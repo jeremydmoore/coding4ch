@@ -104,8 +104,8 @@ Press the `space` key as you read through the agreement, then type `agree` at th
 % brew install cmake pkg-config wget
 % brew install jpeg libpng libtiff openexr
 ```
-4. NOT RECOMMENDED Optional: Install ImageMagick
-- Installing ImageMagick on macOS Catalina 10.15.4 failed as of 2020-04-13
+4. Install ImageMagick
+- Installing ImageMagick on macOS Catalina 10.15.5 was successful on 2020-09-10, but this install on macOS 10.15.4 failed 2020-04-13
 ```
 % brew install imagemagick
 ```
