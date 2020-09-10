@@ -10,7 +10,7 @@ A step by step series of examples to install the requisite programs to setup a d
 1. You know how to operate the command line
   - If you don't know how to operate the command line please ask for assistance before beginning
 
-This code is written for installation on macOS and has been tested on macOS 10.15.4 Catalina. The assumption is that you do not have a development environment on your computer before beginning these steps (if you don't know what that means, then you're also good to go!).
+This code is written for installation on macOS and has been tested on macOS 10.15.5 Catalina. The assumption is that you do not have a development environment on your computer before beginning these steps (if you don't know what that means, then you're also good to go!).
 
 
 ## Install Steps
